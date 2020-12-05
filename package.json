@@ -11,7 +11,6 @@
     "react": "^17.0.1",
     "react-bootstrap": "^1.4.0",
     "react-dom": "^17.0.1",
-    "react-model-viewer": "^0.6.1",
     "react-scripts": "4.0.1",
     "three": "^0.123.0",
     "web-vitals": "^0.2.4"
