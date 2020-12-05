@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/App.css"],"names":[],"mappings":"AAAA,aACE,YAAa,CACb,WACF","file":"main.3251a4f1.chunk.css","sourcesContent":["model-viewer {\n  height: 100vh;\n  width: 100vh;\n}\n"]}
