@@ -1,7 +1,7 @@
-// import "@google/model-viewer"
-// import ModelViewer from 'react-model-viewer';
+import "@google/model-viewer"
+
 import  "./App.css"
-// let h = "Horse.glb";
+
 function App() {
   return (
     <div className="App">
