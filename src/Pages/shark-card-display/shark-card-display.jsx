@@ -21,16 +21,21 @@ class SharkCardDisplay extends Component {
       });
   }
   render() {
-    let image_links = this.state.sharkData.map((data, idx) => ( 
+    let image_links = this.state.sharkData.map((data, idx) => (
       <Card key={idx}>
         <Card.Img src={data.imageURL} />
         <Card.Body>
           <Card.Title>
-            <Link to="sharks/sample">{data.sharkType}</Link>
+            <Link
+              to={{
+                pathname: "/sharks/" + data.sharkType,
+                state: { fetched: data },
+              }}
+            >
+              {data.sharkType}
+            </Link>
           </Card.Title>
-          <Card.Text>
-          {data.description}  
-          </Card.Text>
+          <Card.Text>{data.description}</Card.Text>
         </Card.Body>
       </Card>
     ));

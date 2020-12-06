@@ -2,9 +2,14 @@ import React, { Component } from "react";
 import "./vr-display.component.css";
 import { Button, Card, CardDeck } from "react-bootstrap";
 import Table from "react-bootstrap/Table";
+import { withRouter } from "react-router-dom";
 
 class VRDisplayComponent extends Component {
+  constructor(props) {
+    super(props);
+  }
   render() {
+    console.log(this.props.location.state);
     let display = [
       "Primary",
       "Secondary",
@@ -20,7 +25,7 @@ class VRDisplayComponent extends Component {
         style={{ width: "18rem" }}
         className="mb-2"
       >
-        <Card.Header>Header</Card.Header>
+        <Card.Header>Test</Card.Header>
         <Card.Body>
           <Card.Title>{variant} Card Title </Card.Title>
         </Card.Body>
@@ -48,4 +53,4 @@ class VRDisplayComponent extends Component {
   }
 }
 
-export default VRDisplayComponent;
+export default withRouter(VRDisplayComponent);
