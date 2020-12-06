@@ -7,7 +7,7 @@ class SharkCardDisplay extends Component {
   };
   componentDidMount() {
     console.log("called");
-    fetch("http://192.168.29.61:9000/shark/")
+    fetch("https://sharkhack-backend.herokuapp.com/shark")
       .then((res) =>
         res.json().then((res) => {
           console.log("Successfully received data from backend");
