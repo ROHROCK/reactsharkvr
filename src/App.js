@@ -17,6 +17,8 @@ function App() {
         <Route exact path="/" component={SharkCardDisplay} />
         <Route exact path="/shark/:sharkname" render={props=> <SharkVRDisplayComponent {...props} />} />
         {/* <Route path="/shark/:sharkname" component={SharkVRDisplayComponent} /> */}
+        {/* <Route exact path="/" component={SharkCardDisplay} /> */}
+        <Route exact path="/" component={AboutUs} />
       </BrowserRouter>
     </div>
   );
