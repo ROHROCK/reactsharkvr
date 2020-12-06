@@ -1,19 +1,22 @@
 import React, { Component } from "react";
 import { CardGroup, Card } from "react-bootstrap";
 // import  {fetchData} from '../../Services/Service.js'
+import { Link } from "react-router-dom";
 class SharkCardDisplay extends Component {
   state = {
-    sharkData: []
-  }
+    sharkData: [],
+  };
   componentDidMount() {
     console.log("called");
-    fetch('http://localhost:9000/shark').then(res =>
-      res.json().then(res => {
-        console.log("Successfully received data from backend")
-        this.setState({ sharkData: res });
-        console.log(this.state.sharkData);
-      }
-      )).catch(err => {
+    fetch("http://localhost:9000/shark")
+      .then((res) =>
+        res.json().then((res) => {
+          console.log("Successfully received data from backend");
+          this.setState({ sharkData: res });
+          console.log(this.state.sharkData);
+        })
+      )
+      .catch((err) => {
         console.log(err);
       });
   }
@@ -27,7 +30,9 @@ class SharkCardDisplay extends Component {
       <Card key={idx}>
         <Card.Img src={variant} />
         <Card.Body>
-          <Card.Title>shark</Card.Title>
+          <Card.Title>
+            <Link to="sharks/sample">Shark</Link>
+          </Card.Title>
           <Card.Text>
             The tiger shark is a species of requiem shark and the only extant
             member of the genus Galeocerdo. It is a large macropredator, capable
