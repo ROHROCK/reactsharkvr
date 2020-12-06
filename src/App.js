@@ -16,14 +16,14 @@ import TeamMember from "./Pages/Team/Team.jsx"
     <div className="App">
       <NavbarComponent />
       <BrowserRouter>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/sharks" component={SharkCardDisplay} />
+        {/* <Route exact path="/" component={Home} /> */}
+        <Route exact path="/" component={SharkCardDisplay} />
         <Route exact path="/sharks/:s" render={props=> <SharkVRDisplayComponent {...props} />} />
         {/* <Route path="/shark/:sharkname" component={SharkVRDisplayComponent} /> */}
         {/* <Route exact path="/" component={SharkCardDisplay} /> */}
         {/* <Route exact path="/" component={aboutus} />{" "} */}
         {/* <Route exact path="/" component={TechnologyUsed} />{" "} */}
-        <Route exact path="/" component={TeamMember} />{" "}
+        {/* <Route exact path="/" component={TeamMember} />{" "} */}
       </BrowserRouter>
     </div>
   );
