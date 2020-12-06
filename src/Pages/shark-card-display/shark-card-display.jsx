@@ -21,24 +21,15 @@ class SharkCardDisplay extends Component {
       });
   }
   render() {
-    let image_links = [
-      "https://i.ytimg.com/vi/_82Iv7P0ASM/maxresdefault.jpg",
-      "https://www.nhm.ac.uk/content/dam/nhmwww/discover/megalodon/megalodon_warpaint_shutterstock-full-width.jpg.thumb.1160.1160.jpg",
-      "https://science.sciencemag.org/content/359/6382/1342.1/F1.large.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/b/bd/Great_hammerhead2.jpg",
-    ].map((variant, idx) => (
+    let image_links = this.state.sharkData.map((data, idx) => ( 
       <Card key={idx}>
-        <Card.Img src={variant} />
+        <Card.Img src={data} />
         <Card.Body>
           <Card.Title>
-            <Link to="sharks/sample">Shark</Link>
+            <Link to="sharks/sample">{data.sharkType}</Link>
           </Card.Title>
           <Card.Text>
-            The tiger shark is a species of requiem shark and the only extant
-            member of the genus Galeocerdo. It is a large macropredator, capable
-            of attaining a length over 5 m. Populations are found in many
-            tropical and temperate waters, especially around central Pacific
-            islands
+          {data.description}  
           </Card.Text>
         </Card.Body>
       </Card>
