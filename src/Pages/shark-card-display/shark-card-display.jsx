@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { CardGroup, Card } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 class SharkCardDisplay extends Component {
   render() {
@@ -12,7 +13,10 @@ class SharkCardDisplay extends Component {
       <Card key={idx}>
         <Card.Img src={variant} />
         <Card.Body>
-          <Card.Title>shark</Card.Title>
+          <Card.Title>
+            {" "}
+            <Link to="/shark/sharkname">Shark</Link>{" "}
+          </Card.Title>
           <Card.Text>
             The tiger shark is a species of requiem shark and the only extant
             member of the genus Galeocerdo. It is a large macropredator, capable

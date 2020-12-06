@@ -29,7 +29,7 @@ class VRDisplayComponent extends Component {
     return (
       <div className="container">
         <model-viewer
-          src="assest/great_hammerhead_shark.glb"
+          src="/assest/great_hammerhead_shark.glb"
           alt="A 3D model of a robot"
           auto-rotate
           camera-controls
