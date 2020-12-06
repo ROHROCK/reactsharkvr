@@ -4,7 +4,7 @@ import {Image, Container ,Row ,Col } from "react-bootstrap";
 class TechnologyUsed extends Component {
     render() {
         return (
-            <div>
+            <div >
 
                 <Container>
                    <Row> <Col>
@@ -35,4 +35,3 @@ class TechnologyUsed extends Component {
 }
 
 export default TechnologyUsed;
-<img src="https://img.icons8.com/color/144/000000/heroku.png"/>

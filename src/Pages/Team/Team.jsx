@@ -11,13 +11,14 @@ class TeamMember extends Component {
                  <div class="team_container">
                 <Row>
                     <h1>MEET THE TEAM</h1>
-                </Row>
+                </Row>{" "}
                 </div>
+                {" "}
                 <Row>
                     <div className="profile">
                     <Col xs lg="2">
-                        <Image src="assest/Kausar.jpg" fluid  style={{width:"300px"}}></Image>
-                        <h4 style={{ color:"red" }}>Kausar Sayyed</h4>
+                        <Image src="assest/Kausar.jpg" fluid  ></Image>
+                        <h4 >Kausar Sayyed</h4>
                         <a href="https://www.linkedin.com/in/kausar-sayyed07/">
                         <Image src="https://img.icons8.com/android/38/000000/linkedin.png"></Image></a>
                         {" "}
@@ -27,13 +28,13 @@ class TeamMember extends Component {
                      
                     </Col>
                     <Col xs lg="2">
-                        <Image src="assest/Kausar.jpg" fluid style={{width:"300px"}}></Image>
-                        <h4>Rohit</h4>
+                        <Image src="assest/Rohit.jpg" fluid ></Image>
+                        <h4>Rohit Agharkar</h4>
                         <div className="profile_links">
-                        <a href="https://www.linkedin.com/in/kausar-sayyed07/">
+                        <a href="https://www.linkedin.com/in/rohit-agharkar-15793a127/">
                         <Image src="https://img.icons8.com/android/38/000000/linkedin.png"></Image></a>
 
-                        <a href="https://github.com/kausarsayyed20">
+                        <a href="https://github.com/ROHROCK">
                         <Image src="https://img.icons8.com/material-rounded/48/000000/github.png"></Image></a>
                         {" "}
                         </div>
@@ -41,12 +42,12 @@ class TeamMember extends Component {
                        
                     </Col>
                     <Col xs lg="2">
-                        <Image src="assest/Kausar.jpg" fluid style={{width:"300px"}}></Image>
-                        <h4>Vikrant</h4>
+                        <Image src="assest/Vikrant.jpg" fluid ></Image>
+                        <h4>Vikrant Shitole</h4>
                         <div className="profile_links"></div>
-                        <a href="https://www.linkedin.com/in/kausar-sayyed07/">
+                        <a href="https://www.linkedin.com/in/vikrant-shitole-081092183/">
                         <Image src="https://img.icons8.com/android/38/000000/linkedin.png"></Image></a>
-                        <a href="https://github.com/kausarsayyed20">
+                        <a href="https://github.com/vikrantshitole">
                         <Image src="https://img.icons8.com/material-rounded/48/000000/github.png"></Image></a>
                         {" "}
                     </Col>
