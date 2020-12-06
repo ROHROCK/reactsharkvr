@@ -1,25 +1,25 @@
 import React, { Component } from "react";
 import { Image, Container, Row, Col } from "react-bootstrap";
-import "./aboutus.css";
+import "./aboutus.component.css";
 
 class aboutus extends Component {
   render() {
     return (
       <div>
         <div className="container">
-        <div className="row">
-          <div className="image_container">
-            <Col>1 0f 1
-            <Image src="https://images-ext-1.discordapp.net/external/FpGkLZh-9DP5tHzGgqRc9xeOOn4uibQYeKnNTXSFO8Q/https/img.etimg.com/thumb/msid-48223813%2Cwidth-650%2Cimgsize-363706%2C%2Cresizemode-4%2Cquality-100/.jpg?width=633&height=475">
-              </Image>
-            </Col>
+          <div className="row">
+            <div className="image_container">
+              <Col>
+                1 0f 1
+                <Image src="https://images-ext-1.discordapp.net/external/FpGkLZh-9DP5tHzGgqRc9xeOOn4uibQYeKnNTXSFO8Q/https/img.etimg.com/thumb/msid-48223813%2Cwidth-650%2Cimgsize-363706%2C%2Cresizemode-4%2Cquality-100/.jpg?width=633&height=475"></Image>
+              </Col>
             </div>
-       </div>
+          </div>
           <Row>
             <Col fluid>
               {/* <h1>BLAHAJ</h1> */}
               {/* <div className="image_container"> */}
-                {/* <Image src="https://cf.shopee.com.my/file/9a1fa360daa78564598b2bd6f5b1d749" /> */}
+              {/* <Image src="https://cf.shopee.com.my/file/9a1fa360daa78564598b2bd6f5b1d749" /> */}
               {/* </div> */}
             </Col>
           </Row>
@@ -43,7 +43,6 @@ class aboutus extends Component {
             </Col>
           </Row>
         </div>
-        
       </div>
     );
   }
