@@ -1,0 +1,13 @@
+.image_container {
+  box-shadow: 10px 10px 8px #888888;
+  width: 100%;
+  
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  width: 100%;
+}

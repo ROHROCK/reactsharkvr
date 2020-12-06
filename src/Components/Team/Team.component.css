@@ -1,0 +1,14 @@
+.team_container {
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  box-shadow: 10px 10px 8px 10px #888888;
+  justify-items: center;
+  padding: 10px;
+  margin: 50px 100px;
+}

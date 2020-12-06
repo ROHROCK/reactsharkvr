@@ -6,17 +6,15 @@ class aboutus extends Component {
   render() {
     return (
       <div>
-        <Container>
-        <Container fluid>
-        <Row>
+        <div className="container">
+        <div className="row">
           <div className="image_container">
             <Col>1 0f 1
-            <Image src="https://www.google.co.in/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DihKUoZxNClA&psig=AOvVaw3AUersqxp8m7JlcoZoUK3h&ust=1607333438525000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOCSn_OFue0CFQAAAAAdAAAAABAf">
+            <Image src="https://images-ext-1.discordapp.net/external/FpGkLZh-9DP5tHzGgqRc9xeOOn4uibQYeKnNTXSFO8Q/https/img.etimg.com/thumb/msid-48223813%2Cwidth-650%2Cimgsize-363706%2C%2Cresizemode-4%2Cquality-100/.jpg?width=633&height=475">
               </Image>
             </Col>
             </div>
-       </Row>
-        </Container>
+       </div>
           <Row>
             <Col fluid>
               {/* <h1>BLAHAJ</h1> */}
@@ -44,7 +42,7 @@ class aboutus extends Component {
               {/* </div> */}
             </Col>
           </Row>
-        </Container>
+        </div>
         
       </div>
     );
