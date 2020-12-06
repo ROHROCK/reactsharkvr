@@ -23,7 +23,7 @@ class SharkCardDisplay extends Component {
   render() {
     let image_links = this.state.sharkData.map((data, idx) => ( 
       <Card key={idx}>
-        <Card.Img src={data} />
+        <Card.Img src={data.imageURL} />
         <Card.Body>
           <Card.Title>
             <Link to="sharks/sample">{data.sharkType}</Link>
