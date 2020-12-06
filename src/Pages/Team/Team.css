@@ -1,0 +1,12 @@
+.team_container{
+margin : 0 auto;
+display: flex;
+    justify-content: center;
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    
+}
+
