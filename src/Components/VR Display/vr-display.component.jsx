@@ -33,6 +33,7 @@ class VRDisplayComponent extends Component {
           auto-rotate
           camera-controls
           background-color="#455A64"
+          ar
         />
         <Card>
           {/* <Card.Header>
