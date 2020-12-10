@@ -28,7 +28,7 @@ class VRDisplayComponent extends Component {
     return (
       <div className="container">
         <model-viewer
-          src={this.props.location.state.fetched.glbLink}
+          src="/assest/Megalodon.glb"
           alt="A 3D model of a robot"
           auto-rotate
           camera-controls
@@ -70,21 +70,6 @@ class VRDisplayComponent extends Component {
                   </Card.Title>
                 </Card.Body>
               </Card>
-
-              {/* <Card
-                bg={"Secondary".toLowerCase()}
-                text={"Secondary".toLowerCase() === "light" ? "dark" : "white"}
-                style={{ width: "18rem" }}
-                className="mb-2"
-              >
-                <Card.Header>Description</Card.Header>
-                <Card.Body>
-                  <Card.Title>
-                    {" "}
-                    {this.props.location.state.fetched.description}{" "}
-                  </Card.Title>
-                </Card.Body>
-              </Card> */}
             </CardDeck>
 
             <Button
