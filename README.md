@@ -14,7 +14,9 @@
 <br />
 <p align="center">
   <a href="https://github.com/ROHROCK/reactsharkvr">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://img.icons8.com/fluency/100/000000/shark-body.png" />
+<!--  <img src="https://img.icons8.com/emoji/100/000000/shark-emoji.png"/> -->
+<!--     <img src="https://img.icons8.com/flat-round/100/000000/shark--v1.png"/> -->
   </a>
 
   <h3 align="center">Shark AR</h3>
@@ -110,9 +112,9 @@ Contributions are what make the open source community such an amazing place to b
 
 Rohit Agharkar - [@rohithamster](https://twitter.com/rohithamster) - rohithamster@gmail.com
 <br />
-Vikrant Shitole - [@rohithamster](https://twitter.com/rohithamster) - rohithamster@gmail.com
+Vikrant Shitole - vikrantshitole98@gmail.com 
 <br />
-Kausar Sayyed - [@rohithamster](https://twitter.com/rohithamster) - rohithamster@gmail.com
+Kausar Sayyed - [@Kausarsayyed20](https://twitter.com/Kausarsayyed20) - kausarsayyed.20@gmail.com
 
 Project Link: [https://github.com/rohrock/reactsharkvr](ttps://github.com/rohrock/reactsharkvr)
 
